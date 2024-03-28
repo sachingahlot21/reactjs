@@ -1,0 +1,20 @@
+.maindiv{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+}
+.toShow{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

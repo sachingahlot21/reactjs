@@ -1,0 +1,86 @@
+.mainContainer{
+    width: 50vw;
+    height:90vh;
+    background-color: rgb(140, 140, 140);
+    margin: auto;
+}
+      
+.passDiv{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(140, 140, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.passDiv > input{
+    width: 60%;
+    height: 30%;
+    background-color: white;
+}
+.passDiv > button{
+    width: 10%;
+    height: 30%;
+    background-color:white;
+}
+.mainDiv{
+    width: 100%;
+    height: 80%;
+ 
+    /* background-color: rgb(140, 140, 140); */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.clDiv {
+    width: 100%;
+    height: 20%;
+    font-size: medium;
+    font-family: sans-serif;
+    margin-right: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 100px;
+
+}
+.clDiv >h1 {
+    font-size: medium;
+    font-family: sans-serif;
+    margin-right: 100px;  
+}
+.rangeInput{
+    width:55%
+}
+.labelDiv{
+    width: 100%;
+    height:50% ;
+    
+}
+.labels{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    font-size: medium;
+    font-family: sans-serif;
+}
+.strengthDiv{
+   
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    
+}
+.strengthDiv >h1,span{
+    font-size: medium;
+    font-family: sans-serif;
+}
+.genBtn{
+    width: 50%;
+    height: 10%;
+}
