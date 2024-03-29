@@ -23,9 +23,10 @@ function App() {
   }
 
   const editCmnt = (id, cmnt) => {
-    setCmnts((prev) => prev.map((prevCmnt) => (
-      prevCmnt.id === id ? prevCmnt=cmnt : prevCmnt
-    )))
+
+    // setCmnts((prev) => prev.map((prevCmnt) => (
+    //   prevCmnt.id === id ? prevCmnt=cmnt : prevCmnt
+    // )))
   }
 
   const replyCmnt = () => {
