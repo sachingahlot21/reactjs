@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Step1 from '../src/components/Step1'
+import Step2 from './components/Step2'
+import bgIg from './assets/images/bgSidebar.jpg'
 import './App.css'
 
 function App() {
@@ -8,26 +9,26 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='w-[100vw] h-[100vh]  bg-[rgb(229,244,246)] flex justify-center items-center'>
+        <div className='w-[70%] h-[95%] bg-white rounded-xl flex'>
+
+          <div className='w-[30%] h-[100%]  flex justify-center items-center bg-cover bg-center'
+
+          >
+            <div className='bg-cover bg-center w-[90%] h-[95%] bg-green-400 rounded-xl'
+              style={{
+                backgroundImage: `url(${bgIg})`,
+              }}>
+
+            </div>
+          </div>
+
+          <div className='w-[70%] h-[100%] '>
+            {/* <Step1 /> */}
+            <Step2 />
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
