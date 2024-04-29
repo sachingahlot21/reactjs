@@ -13,7 +13,7 @@ function TrendDiv() {
                     <span className='text-sm mr-2 text-gray-200'>2019</span>
                     <span className='text-sm mr-2 text-gray-200'>Movie</span>
                     <span className='text-sm mr-2 text-gray-200'>PG</span>
-                    <h1 className='text-xl font-bold text-white'>Beyond Earth</h1>
+                    <h1 className='text-xl font-bold text-white'>Beyond earth</h1>
                 </div>
             </div>
 

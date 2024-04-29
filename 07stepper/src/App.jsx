@@ -6,7 +6,7 @@ import Step4 from './components/Step4'
 import StepsComp from './StepsComp'
 
 import bgIg from './assets/images/bgSidebar.jpg'
-import bgMob from'./assets/images/bg-sidebar-mobile.jpg'
+import bgMob from './assets/images/bg-sidebar-mobile.jpg'
 import './App.css'
 import { DataProvider } from './context/DataContext'
 
@@ -45,7 +45,7 @@ function App() {
   const handleNext = () => {
     setActive((active) => {
       if (active === CHECKOUT_STEPS.length) {
-        console.log(mainData)
+        
         return active;
       }
       else {
